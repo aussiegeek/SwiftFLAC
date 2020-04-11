@@ -1,0 +1,16 @@
+framework module SwiftFLAC {
+  umbrella header "SwiftFLAC.h"
+
+  export *
+  module * { export * }
+  explicit module flac_Private {
+      header "metadata.h"
+      header "export.h"
+      header "callback.h"
+      header "ordinals.h"
+      header "format.h"
+      link "flac"
+      export *
+  }
+}
+

@@ -1,0 +1,8 @@
+xcuserdata/
+.build/
+.DS_Store
+Samples/*.flac
+Samples/*.wav
+libFLAC/*.xz
+libFLAC/flac
+libFLAC/output
