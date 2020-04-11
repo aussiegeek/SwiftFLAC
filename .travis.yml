@@ -1,0 +1,11 @@
+language: swift
+osx_image: xcode11.4
+xcode_project: SwiftFLAC.xcodeproj
+xcode_scheme: SwiftFLAC
+before_script:
+  - cd Samples && make && cd ..
+addons:
+  homebrew:
+    packages:
+      - ffmpeg
+      - flac
